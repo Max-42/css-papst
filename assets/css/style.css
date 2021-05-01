@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    letter-spacing: 1px;
+    
+}
+tr:nth-child(even){
+    background-color: #fefefe;
+    white-space: nowrap;
+}
+tr:nth-child(odd){
+    background-color: #eee;
+    white-space: nowrap;
+}
+
+tr:nth-last-child(1){
+    background-color: #fefefe;
+    font-weight: bold;
+    border: 1px solid #ddd
+}
+td{
+    text-align: right;
+}
+.minus{
+    color: red;
+    background-color: #ff3;
+}
+
+.plus{
+    background-color: #cec;
+}
+
+th{
+    border: 1px solid #ddd;
+    /* border-collapse: collapse; */
+}
+h2,h3{
+    border-spacing: 1px;
+}
